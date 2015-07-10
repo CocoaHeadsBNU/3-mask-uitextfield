@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C876F441B4DA5BF00995433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F431B4DA5BF00995433 /* main.m */; };
+		1C876F471B4DA5BF00995433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F461B4DA5BF00995433 /* AppDelegate.m */; };
+		1C876F4F1B4DA5BF00995433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C876F4E1B4DA5BF00995433 /* Images.xcassets */; };
+		1C876F5E1B4DA5C000995433 /* textfieldmasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F5D1B4DA5C000995433 /* textfieldmasksTests.m */; };
+		1C876F691B4DA6F500995433 /* MasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F681B4DA6F500995433 /* MasksViewController.m */; };
+		1C876F771B4DA77F00995433 /* SHSFlagAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F6D1B4DA77F00995433 /* SHSFlagAccessoryView.m */; };
+		1C876F781B4DA77F00995433 /* SHSPhoneLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F701B4DA77F00995433 /* SHSPhoneLogic.m */; };
+		1C876F791B4DA77F00995433 /* SHSPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F721B4DA77F00995433 /* SHSPhoneNumberFormatter.m */; };
+		1C876F7A1B4DA77F00995433 /* SHSPhoneNumberFormatter+UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F741B4DA77F00995433 /* SHSPhoneNumberFormatter+UserConfig.m */; };
+		1C876F7B1B4DA77F00995433 /* SHSPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F761B4DA77F00995433 /* SHSPhoneTextField.m */; };
+		1C876F7F1B4DA79200995433 /* VMaskTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F7E1B4DA79200995433 /* VMaskTextField.m */; };
+		1C876F891B4DA7C500995433 /* ImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F821B4DA7C500995433 /* ImageProvider.m */; };
+		1C876F8A1B4DA7C500995433 /* UIColor+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F841B4DA7C500995433 /* UIColor+PS.m */; };
+		1C876F8B1B4DA7C500995433 /* UIFont+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F861B4DA7C500995433 /* UIFont+PS.m */; };
+		1C876F8C1B4DA7C500995433 /* UIImage+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F881B4DA7C500995433 /* UIImage+PS.m */; };
+		1C876F8F1B4DA7D000995433 /* PSActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C876F8E1B4DA7D000995433 /* PSActivityIndicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C876F581B4DA5C000995433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C876F361B4DA5BF00995433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C876F3D1B4DA5BF00995433;
+			remoteInfo = textfieldmasks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C876F3E1B4DA5BF00995433 /* textfieldmasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textfieldmasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C876F421B4DA5BF00995433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C876F431B4DA5BF00995433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C876F451B4DA5BF00995433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C876F461B4DA5BF00995433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C876F4E1B4DA5BF00995433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C876F571B4DA5C000995433 /* textfieldmasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textfieldmasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C876F5C1B4DA5C000995433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C876F5D1B4DA5C000995433 /* textfieldmasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textfieldmasksTests.m; sourceTree = "<group>"; };
+		1C876F671B4DA6F500995433 /* MasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasksViewController.h; sourceTree = "<group>"; };
+		1C876F681B4DA6F500995433 /* MasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasksViewController.m; sourceTree = "<group>"; };
+		1C876F6C1B4DA77F00995433 /* SHSFlagAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSFlagAccessoryView.h; sourceTree = "<group>"; };
+		1C876F6D1B4DA77F00995433 /* SHSFlagAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSFlagAccessoryView.m; sourceTree = "<group>"; };
+		1C876F6E1B4DA77F00995433 /* SHSPhoneLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSPhoneLibrary.h; sourceTree = "<group>"; };
+		1C876F6F1B4DA77F00995433 /* SHSPhoneLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSPhoneLogic.h; sourceTree = "<group>"; };
+		1C876F701B4DA77F00995433 /* SHSPhoneLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSPhoneLogic.m; sourceTree = "<group>"; };
+		1C876F711B4DA77F00995433 /* SHSPhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSPhoneNumberFormatter.h; sourceTree = "<group>"; };
+		1C876F721B4DA77F00995433 /* SHSPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSPhoneNumberFormatter.m; sourceTree = "<group>"; };
+		1C876F731B4DA77F00995433 /* SHSPhoneNumberFormatter+UserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SHSPhoneNumberFormatter+UserConfig.h"; sourceTree = "<group>"; };
+		1C876F741B4DA77F00995433 /* SHSPhoneNumberFormatter+UserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SHSPhoneNumberFormatter+UserConfig.m"; sourceTree = "<group>"; };
+		1C876F751B4DA77F00995433 /* SHSPhoneTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSPhoneTextField.h; sourceTree = "<group>"; };
+		1C876F761B4DA77F00995433 /* SHSPhoneTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSPhoneTextField.m; sourceTree = "<group>"; };
+		1C876F7D1B4DA79200995433 /* VMaskTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMaskTextField.h; sourceTree = "<group>"; };
+		1C876F7E1B4DA79200995433 /* VMaskTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMaskTextField.m; sourceTree = "<group>"; };
+		1C876F811B4DA7C500995433 /* ImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProvider.h; sourceTree = "<group>"; };
+		1C876F821B4DA7C500995433 /* ImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProvider.m; sourceTree = "<group>"; };
+		1C876F831B4DA7C500995433 /* UIColor+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PS.h"; sourceTree = "<group>"; };
+		1C876F841B4DA7C500995433 /* UIColor+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PS.m"; sourceTree = "<group>"; };
+		1C876F851B4DA7C500995433 /* UIFont+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PS.h"; sourceTree = "<group>"; };
+		1C876F861B4DA7C500995433 /* UIFont+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PS.m"; sourceTree = "<group>"; };
+		1C876F871B4DA7C500995433 /* UIImage+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PS.h"; sourceTree = "<group>"; };
+		1C876F881B4DA7C500995433 /* UIImage+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PS.m"; sourceTree = "<group>"; };
+		1C876F8D1B4DA7D000995433 /* PSActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSActivityIndicator.h; sourceTree = "<group>"; };
+		1C876F8E1B4DA7D000995433 /* PSActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSActivityIndicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C876F3B1B4DA5BF00995433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C876F541B4DA5C000995433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C876F351B4DA5BF00995433 = {
+			isa = PBXGroup;
+			children = (
+				1C876F401B4DA5BF00995433 /* textfieldmasks */,
+				1C876F5A1B4DA5C000995433 /* textfieldmasksTests */,
+				1C876F3F1B4DA5BF00995433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C876F3F1B4DA5BF00995433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F3E1B4DA5BF00995433 /* textfieldmasks.app */,
+				1C876F571B4DA5C000995433 /* textfieldmasksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C876F401B4DA5BF00995433 /* textfieldmasks */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F801B4DA7B600995433 /* Utils */,
+				1C876F6A1B4DA76B00995433 /* Library */,
+				1C876F451B4DA5BF00995433 /* AppDelegate.h */,
+				1C876F461B4DA5BF00995433 /* AppDelegate.m */,
+				1C876F4E1B4DA5BF00995433 /* Images.xcassets */,
+				1C876F411B4DA5BF00995433 /* Supporting Files */,
+				1C876F671B4DA6F500995433 /* MasksViewController.h */,
+				1C876F681B4DA6F500995433 /* MasksViewController.m */,
+			);
+			path = textfieldmasks;
+			sourceTree = "<group>";
+		};
+		1C876F411B4DA5BF00995433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F421B4DA5BF00995433 /* Info.plist */,
+				1C876F431B4DA5BF00995433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C876F5A1B4DA5C000995433 /* textfieldmasksTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F5D1B4DA5C000995433 /* textfieldmasksTests.m */,
+				1C876F5B1B4DA5C000995433 /* Supporting Files */,
+			);
+			path = textfieldmasksTests;
+			sourceTree = "<group>";
+		};
+		1C876F5B1B4DA5C000995433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F5C1B4DA5C000995433 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C876F6A1B4DA76B00995433 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F7C1B4DA78300995433 /* VMask */,
+				1C876F6B1B4DA77700995433 /* SHSPhone */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		1C876F6B1B4DA77700995433 /* SHSPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F6C1B4DA77F00995433 /* SHSFlagAccessoryView.h */,
+				1C876F6D1B4DA77F00995433 /* SHSFlagAccessoryView.m */,
+				1C876F6E1B4DA77F00995433 /* SHSPhoneLibrary.h */,
+				1C876F6F1B4DA77F00995433 /* SHSPhoneLogic.h */,
+				1C876F701B4DA77F00995433 /* SHSPhoneLogic.m */,
+				1C876F711B4DA77F00995433 /* SHSPhoneNumberFormatter.h */,
+				1C876F721B4DA77F00995433 /* SHSPhoneNumberFormatter.m */,
+				1C876F731B4DA77F00995433 /* SHSPhoneNumberFormatter+UserConfig.h */,
+				1C876F741B4DA77F00995433 /* SHSPhoneNumberFormatter+UserConfig.m */,
+				1C876F751B4DA77F00995433 /* SHSPhoneTextField.h */,
+				1C876F761B4DA77F00995433 /* SHSPhoneTextField.m */,
+			);
+			name = SHSPhone;
+			sourceTree = "<group>";
+		};
+		1C876F7C1B4DA78300995433 /* VMask */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F7D1B4DA79200995433 /* VMaskTextField.h */,
+				1C876F7E1B4DA79200995433 /* VMaskTextField.m */,
+			);
+			name = VMask;
+			sourceTree = "<group>";
+		};
+		1C876F801B4DA7B600995433 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1C876F8D1B4DA7D000995433 /* PSActivityIndicator.h */,
+				1C876F8E1B4DA7D000995433 /* PSActivityIndicator.m */,
+				1C876F811B4DA7C500995433 /* ImageProvider.h */,
+				1C876F821B4DA7C500995433 /* ImageProvider.m */,
+				1C876F831B4DA7C500995433 /* UIColor+PS.h */,
+				1C876F841B4DA7C500995433 /* UIColor+PS.m */,
+				1C876F851B4DA7C500995433 /* UIFont+PS.h */,
+				1C876F861B4DA7C500995433 /* UIFont+PS.m */,
+				1C876F871B4DA7C500995433 /* UIImage+PS.h */,
+				1C876F881B4DA7C500995433 /* UIImage+PS.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C876F3D1B4DA5BF00995433 /* textfieldmasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C876F611B4DA5C000995433 /* Build configuration list for PBXNativeTarget "textfieldmasks" */;
+			buildPhases = (
+				1C876F3A1B4DA5BF00995433 /* Sources */,
+				1C876F3B1B4DA5BF00995433 /* Frameworks */,
+				1C876F3C1B4DA5BF00995433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textfieldmasks;
+			productName = textfieldmasks;
+			productReference = 1C876F3E1B4DA5BF00995433 /* textfieldmasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C876F561B4DA5C000995433 /* textfieldmasksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C876F641B4DA5C000995433 /* Build configuration list for PBXNativeTarget "textfieldmasksTests" */;
+			buildPhases = (
+				1C876F531B4DA5C000995433 /* Sources */,
+				1C876F541B4DA5C000995433 /* Frameworks */,
+				1C876F551B4DA5C000995433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C876F591B4DA5C000995433 /* PBXTargetDependency */,
+			);
+			name = textfieldmasksTests;
+			productName = textfieldmasksTests;
+			productReference = 1C876F571B4DA5C000995433 /* textfieldmasksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C876F361B4DA5BF00995433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Lucas Eduardo Schlögl";
+				TargetAttributes = {
+					1C876F3D1B4DA5BF00995433 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1C876F561B4DA5C000995433 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1C876F3D1B4DA5BF00995433;
+					};
+				};
+			};
+			buildConfigurationList = 1C876F391B4DA5BF00995433 /* Build configuration list for PBXProject "textfieldmasks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C876F351B4DA5BF00995433;
+			productRefGroup = 1C876F3F1B4DA5BF00995433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C876F3D1B4DA5BF00995433 /* textfieldmasks */,
+				1C876F561B4DA5C000995433 /* textfieldmasksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C876F3C1B4DA5BF00995433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C876F4F1B4DA5BF00995433 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C876F551B4DA5C000995433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C876F3A1B4DA5BF00995433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C876F8C1B4DA7C500995433 /* UIImage+PS.m in Sources */,
+				1C876F7F1B4DA79200995433 /* VMaskTextField.m in Sources */,
+				1C876F771B4DA77F00995433 /* SHSFlagAccessoryView.m in Sources */,
+				1C876F8A1B4DA7C500995433 /* UIColor+PS.m in Sources */,
+				1C876F7A1B4DA77F00995433 /* SHSPhoneNumberFormatter+UserConfig.m in Sources */,
+				1C876F471B4DA5BF00995433 /* AppDelegate.m in Sources */,
+				1C876F8B1B4DA7C500995433 /* UIFont+PS.m in Sources */,
+				1C876F441B4DA5BF00995433 /* main.m in Sources */,
+				1C876F691B4DA6F500995433 /* MasksViewController.m in Sources */,
+				1C876F8F1B4DA7D000995433 /* PSActivityIndicator.m in Sources */,
+				1C876F781B4DA77F00995433 /* SHSPhoneLogic.m in Sources */,
+				1C876F791B4DA77F00995433 /* SHSPhoneNumberFormatter.m in Sources */,
+				1C876F891B4DA7C500995433 /* ImageProvider.m in Sources */,
+				1C876F7B1B4DA77F00995433 /* SHSPhoneTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C876F531B4DA5C000995433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C876F5E1B4DA5C000995433 /* textfieldmasksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C876F591B4DA5C000995433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C876F3D1B4DA5BF00995433 /* textfieldmasks */;
+			targetProxy = 1C876F581B4DA5C000995433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C876F5F1B4DA5C000995433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C876F601B4DA5C000995433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C876F621B4DA5C000995433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textfieldmasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C876F631B4DA5C000995433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textfieldmasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C876F651B4DA5C000995433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = textfieldmasksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textfieldmasks.app/textfieldmasks";
+			};
+			name = Debug;
+		};
+		1C876F661B4DA5C000995433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = textfieldmasksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textfieldmasks.app/textfieldmasks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C876F391B4DA5BF00995433 /* Build configuration list for PBXProject "textfieldmasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C876F5F1B4DA5C000995433 /* Debug */,
+				1C876F601B4DA5C000995433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C876F611B4DA5C000995433 /* Build configuration list for PBXNativeTarget "textfieldmasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C876F621B4DA5C000995433 /* Debug */,
+				1C876F631B4DA5C000995433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C876F641B4DA5C000995433 /* Build configuration list for PBXNativeTarget "textfieldmasksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C876F651B4DA5C000995433 /* Debug */,
+				1C876F661B4DA5C000995433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C876F361B4DA5BF00995433 /* Project object */;
+}
